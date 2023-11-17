@@ -1,0 +1,21 @@
+{
+  "orders": {
+    "order": {
+      "country": "Portugal",
+      "total": 600
+    }
+  },
+
+  "orders": {
+    "order": {
+      "country": "Ethiopia",
+      "total": 394
+    }
+  },
+  "orders": {
+    "order": {
+      "country": "Keneya",
+      "total": 5000
+    }
+  }
+}

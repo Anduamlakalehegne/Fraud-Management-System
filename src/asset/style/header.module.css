@@ -1,0 +1,27 @@
+.header{
+    display: grid; 
+    grid-template-columns: 70% 10% 10% 10%;
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    align-items: center;
+    padding-left: 40px;
+}
+.logo{
+    height: 45px;
+    /* width: 250px;  */
+    background: url("../Images/logo.png") no-repeat center;
+    background-size: 10%;
+}
+.home{
+    border-right: 1px solid rgb(168, 168, 168);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.home:hover {
+    color: rgb(224, 86, 27);
+ }
+
+ 

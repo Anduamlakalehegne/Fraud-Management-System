@@ -1,0 +1,114 @@
+ /* ------------------------- navigation -------------------------- */
+ .navigation {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  justify-content: left;
+  align-items: center;
+  gap: 3%;
+  position: sticky;
+  top: -1px;
+  z-index: 5;
+  padding-left: 50px;
+  border-bottom: 5px solid rgb(255, 111, 0);
+  background-color: #004360;
+  height: 80px;
+}
+
+.navigation.scrolled {
+  background-color: #004360;
+  color: #585858;
+}
+
+.navigationContents {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  font-size: 1.3vw;
+}
+
+.navigationContents ul {
+  display: flex;
+  font-weight: 550;
+  margin: 15px;
+}
+
+.navigationContents ul li {
+  margin: 15px;
+}
+
+.navigationContents ul li:hover {
+  color: rgb(255, 111, 0);
+  cursor: pointer;
+}
+
+/* styles for hover state */
+.my-hover-class {
+  background-color: #ccc;
+  color: rgb(70, 61, 185);
+}
+
+.rs-nav-item-active {
+  background-color: red;
+  color: white;
+}
+
+.my-active-class {
+  background-color: #aaa;
+  color: rgb(184, 25, 25);
+}
+
+
+
+.wegagenLogo {
+  z-index: 10;
+  display: flex;
+  justify-content: left; 
+  background: url("../asset/Images/logo.png") no-repeat center;
+  background-size: 70%;
+  height: 65px;
+}
+
+.navbarWhat { 
+  background-color: white;
+  color: #565656;
+}
+
+.navbarWhat.scrolled { 
+  background-color: white;
+  color: #565656;
+}
+
+/* @media screen and (max-width: 900px) {
+  .socialMedias ul li {
+    transition: 0.3s;
+    font-size: 2.5vw;
+  }
+
+  .navigationContents {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.5vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+
+  .vacancy {
+    display: none;
+  }
+
+  .socialMedias {
+    display: none;
+  }
+}
+
+.footer{
+  background-color: #004360;
+  color: #d4d4d4;
+} */
+

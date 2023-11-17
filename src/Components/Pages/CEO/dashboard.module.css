@@ -1,0 +1,47 @@
+
+  body{
+      background-color: rgb(238, 238, 238);
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    justify-content: center;
+    gap: 10%;
+    row-gap: 50px;
+    margin-top: 40px;
+  }
+  
+  /* --------------- card 1 ---------------- */
+  .card {
+    color: #006666;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    padding: 5px 15px;
+    border-right: 5px solid #006666;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    z-index: -1;
+  }
+  
+  .card:hover {
+    color: #e4e4e4;
+    background-color: black;
+    transform: scale(1.08);
+    z-index: -1;
+  }
+  .card p {
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .card label {
+    font-size: 40px;
+  }
+  
+  
